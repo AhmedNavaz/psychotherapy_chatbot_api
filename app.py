@@ -8,6 +8,7 @@ app = Flask(__name__)
 def response():
     query = dict(request.form)["query"]
     result = query + " " + time.ctime()
+    return jsonify({"response": result})
 
 
 if __name__ == "__main__":
