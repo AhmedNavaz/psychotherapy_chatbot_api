@@ -2,9 +2,13 @@ from flask import Flask, jsonify, request
 import time
 
 app = Flask(__name__)
+
+@app.route("/", methods=["GET"])
+def index():
+    return jsonify({"message": "Hello World"})
+
+
 @app.route("/chatbot", methods=["POST"])
-
-
 def response():
     query = dict(request.form)['query']
     result = query + " " + time.ctime()
@@ -12,4 +16,4 @@ def response():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",)
+    app.run(host="0.0.0.0", )
