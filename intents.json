@@ -1,0 +1,658 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "are you there",
+                "are you here",
+                "are you still there",
+                "you still there",
+                "hello again",
+                "hello hi",
+                "hello there",
+                "hey there",
+                "hi dear",
+                "hi there",
+                "just going to say hi",
+                "long time no see",
+                "lovely day isn't it"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "See you soon",
+                "BBIAB",
+                "I got to go now",
+                "I gotta go",
+                "I'll be back",
+                "I'll be back soon",
+                "I'll get back to you",
+                "It's been nice to talk to you",
+                "alright bye",
+                "alright good night",
+                "appreciate the chat",
+                "back in a bit",
+                "be back in 5 minutes",
+                "be back in a few",
+                "bye",
+                "bye bye see you soon",
+                "bye bye take care",
+                "bye for now",
+                "bye good night",
+                "chat later",
+                "fine for now",
+                "get lost",
+                "going to bed now",
+                "good night bye",
+                "good night to you",
+                "good talking to you",
+                "good to chat",
+                "goodbye for now",
+                "goodbye see you later",
+                "goodnight now",
+                "got get sleep",
+                "gotta go to sleep",
+                "hope to see you later",
+                "it's been a pleasure chatting with you",
+                "later you",
+                "leave me alone",
+                "nice talking to you",
+                "nice to chat",
+                "nice to talk to you",
+                "ok have a good night",
+                "okay bye",
+                "okay see you later",
+                "okay thank you bye",
+                "see you",
+                "see you soon",
+                "see you tomorrow",
+                "talk to you later",
+                "thanks bye",
+                "thanks bye bye",
+                "thanks for chatting",
+                "thanks good night",
+                "that's all for now",
+                "time to go",
+                "time to go to bed",
+                "you can go now"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "confused",
+            "patterns": [
+                "I'm confused.",
+                "Somethings wrong with me.",
+                "What's the use?",
+                "There is something wrong with me"
+                
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "sad",
+            "patterns": [
+               "I am feeling sad",
+               "I am sad",
+               "I am upset",
+               "I want to cry",
+               "I'm not happy",
+               "I'm unhappy",
+               "I'm upset"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "sucidial",
+            "patterns": [
+                "Life isn't worth it.",
+                "I wish I was dead.",
+                "Existence has no meaning.",
+                "I wish I were dead."
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "depressed",
+            "patterns": [
+                "It's tough to go on.",
+                "Life has no meaning.",
+                "My hopes have vanished.",
+                "I'll never be able to change.",
+                "I have no enthusiasm for anything.",
+                "I wish I were never born.",
+                "Nothing is fun.",
+                "I don't dare imagine what my life will be like in 10 years.",
+                "I'll probably have to be placed in a mental institution someday",
+                "I can't think of anything that would be fun",
+                "Bringing kids into the world is cruel because life isn't worth living",
+                "I'll never get over this depression",
+                "I don't dare imagine what my life will like in ten years",
+                "I'll never stop being depresssed",
+                "I'm depressed"
+                
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "scared",
+            "patterns": [
+                "I'm afraid.",
+                "I'm scared"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "sleep",
+            "patterns": [
+                "I won't be able to sleep.",
+                "I have worked hard, now I need to rest.",
+                "I can't fall asleep",
+                "I can't get to sleep",
+                "I can't get sleep",
+                "I can't sleep",
+                "I'm sleepless"
+                
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "bored",
+            "patterns": [
+                "I am always bored.",
+                "I am getting bored",
+                "I'm bored",
+                "bored"
+                
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "lonely",
+            "patterns": [
+               "I am lonely",
+               "I'm lonely",
+               "I'm really lonely"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "angry",
+            "patterns": [
+               "I am mad",
+               "I'm angry",
+               "I'm furious",
+               "I'm pissed off",
+               "I hate this"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "joyed",
+            "patterns": [
+               "What a beautiful morning.",
+               "Life is interesting.",
+               "This is fun.",
+               "It will be fun doing such-and-such this weekend",
+                "The weather is great today",
+                "I nice, relaxing evening can sure be enjoyable"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "happy",
+            "patterns": [
+              "I did a good job.",
+              "I really feel good.",
+              "That was a nice thing for me to do",
+              "I really feel great",
+              "That's funny"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "frustrated",
+            "patterns": [
+                "I'll always be sexually frustrated",
+                "It isn't working"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "positive",
+            "patterns": [
+               "I can do it better.",
+               "I will learn to be happy.",
+               "I'm hopeful about my future.",
+               "I'm lucky",
+               "I'm pretty lucky",
+                "I've gotten more good things in life than the average person",
+                "I have great hopes for the future",
+                "People are ok once you get to know them",
+                "Someday I'll look back on these days and smile"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "negative",
+            "patterns": [
+                "There is no love in the world.",
+                "Nothing's worth it.",
+                "I'll never find what I really want.",
+                "Why does everything bad happen to me?",
+                "Why do so many bad things happen to me?",
+                "Life's unfair.",
+                "Life is unfiar",
+                "I'll never make good money"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "judgmental",
+            "patterns": [
+                "I'm wasting my life.",
+                "I have no patience.",
+                "I'm stupid.",
+                "I'm ugly.",
+                "I can't express my feelings.",
+                "I'm not capable of loving.",
+                "I'm worthless",
+                "I'm useless",
+                "I have a bad temper.",
+                "I'm selfish.",
+                "I'm not capable of loving."
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "constructive",
+            "patterns": [
+              "I'm a good person.",
+              "I have good control of myself.",
+              "I have a right to be happy.",
+              "I can handle a  crisis as well as anyone else.",
+              "My experiences have prepared me for the future.",
+              "My experiences have prepared me well for the future",
+              "I'm intelligent.",
+              "I'm attractive.",
+              "I can do better than that",
+              "I'll learn to be happier as I live longer",
+              "I can do just about anything if I set my mind to it",
+              "I have enought time to accomplish the things I most want to do",
+              "I'm honest",
+              "I'm responsible",
+              "I'm pretty smart",
+              "I'm physically attractive"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "destructive",
+            "patterns": [
+                "I'll end up alone.",
+                "I won't be able to solve my problems.",
+                "Everything I do turns out wrong.",
+                "Everything gets ruined.",
+                "Everything's my fault",
+                "It's all my fault",
+                "I don't have enough willpower.",
+                "I'm not as good as others.",
+                "I'll end up living all alone",
+                "I dont't have what is takes",
+                "Things are so messed up that doing anything about them is futile",
+                "I'm not good as so-and-so"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "flexible",
+            "patterns": [
+               "Even though things are bad now, the'll get better.",
+               "I have enough time to do the things I want to do.",
+               "Even though things are bad right now, they are bound to get better",
+               "If I can just hold on until such-and-such a date, I'll be ok"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "inflexible",
+            "patterns": [
+                "No one considers friendship important.",
+                "Anyone who thinks I'm nice doesn't really know me.",
+                "I'm inferior to others.",
+                "I wonder if peple talk about me.",
+                "I wonder if they are talking about me",
+                "I feel hurt easily.",
+                "No on in my family understands me.",
+                "Nobody loves me.",
+                "People don't consider friendship important anymore",
+                "No matter how hard one tries, people aren't satisfied"  
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "unnessary",
+            "patterns": [
+               "Things are going to get even worse.",
+               "Things are just going to get worse and worse"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "acquaintance",
+            "patterns": [
+                "tell me about your personality",
+                "why are you here",
+                "talk about yourself",
+                "tell me some stuff about you",
+                "talk some stuff about yourself",
+                "I want to know you better",
+                "I want to know more about you",
+                "tell me about yourself",
+                "tell me about you ",
+                "about yourself",
+                "describe yourself",
+                "introduce yourself",
+                "say about you",
+                "what are you",
+                "define yourself",
+                "what is your personality",
+                "all about you"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "failed",
+            "patterns": [
+                "you are annoying me so much",
+                "you're incredibly annoying",
+                "I find you annoying",
+                "you are annoying",
+                "you're so annoying",
+                "how annoying you are",
+                "you annoy me",
+                "you are annoying me",
+                "you are irritating",
+                "you are such annoying",
+                "you're too annoying",
+                "you are very annoying",
+                "you're not helping me",
+                "you are bad",
+                "you're very bad",
+                "you're really bad",
+                "you are useless",
+                "you are horrible",
+                "you are a waste of time",
+                "you are disgusting",
+                "you are lame",
+                "you are no good",
+                "you're bad",
+                "you're awful",
+                "you are not cool",
+                "you are not good",
+                "you are so bad",
+                "you are so useless",
+                "you are terrible",
+                "you are totally useless",
+                "you are very bad",
+                "you are waste",
+                "you're a bad",
+                "you're not a good",
+                "you're not very good",
+                "you're terrible",
+                "you're the worst",
+                "you're the worst ever",
+                "you're worthless"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "Who are you?",
+                "What tis yo name?",
+                "Name?",
+                "What do people call you?",
+                "What is your name?",
+                "your name?",
+                "nam",
+                "name",
+                "Do you have a name?",
+                "What is your name?",
+                "what's your name",
+                "do I know you",
+                "what are you?",
+                "who are you?"
+               
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "who is your owner?",
+                "who made you?",
+                "name your maker",
+                "who coded you?",
+                "Who is your creator?",
+                "who is your developer?",
+                "who is your bot maker?",
+                "who developed you?",
+                "who built you?",
+                "who made you?",
+                "who are your creators?",
+                "Who created you?",
+                "who is your owner",
+                "who is the boss",
+                "who do you work for",
+                "who is your boss",
+                "who is your master"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "I need a hand",
+                "I need help",
+                "I need some help",
+                "I need you help me now",
+                "I need you right now",
+                "I need you to do something for me",
+                "I need you to help me",
+                "I need your help",
+                "I want your help",
+                "are you going to help me",
+                "assist",
+                "assist me",
+                "assistance",
+                "can help me",
+                "can u help me",
+                "can you assist me",
+                "could you give me a hand",
+                "do me a favor",
+                "do you help me",
+                "do you want to help me",
+                "help",
+                "help me",
+                "help me out",
+                "help me with a problem",
+                "help me with that",
+                "help us",
+                "need help",
+                "need your help",
+                "please help me",
+                "sos",
+                "will you help me",
+                "would you help me",
+                "you can help me help me with something",
+                "you help me"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "laugh",
+            "patterns": [
+                "LMAO",
+                "ah",
+                "ah ah ah",
+                "ahah",
+                "ahah lol",
+                "ahaha",
+                "ahahah",
+                "ahahaha",
+                "funny",
+                "ha",
+                "ha ha",
+                "ha ha ha",
+                "ha ha ha ha",
+                "hah",
+                "haha",
+                "haha haha haha",
+                "haha that's",
+                "haha very",
+                "hahaha",
+                "hahaha",
+                "hahaha very",
+                "he",
+                "hehe",
+                "hehehe",
+                "huh",
+                "laughing out",
+                "lmao",
+                "lol",
+                "loud",
+                "xd"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "morning",
+            "patterns": [
+                "good morning",
+                "good morning to you",
+                "hello good morning",
+                "have a nice morning",
+                "have a great morning",
+                "morning ",
+                "good morning there",
+                "top of the morning to you",
+                "a good morning",
+                "good morning to you",
+                "hi good morning",
+                "and a good morning to you",
+                "good morning too"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "evening",
+            "patterns": [
+                "good evening",
+                "good evening to you",
+                "hey good evening",
+                "hello good evening",
+                "evening",
+                "good evening there"
+            ],
+            "responses": [
+               
+            ]
+        },
+        {
+            "tag": "night",
+            "patterns": [
+                "sweet dreams",
+                "good night",
+                "have a good night",
+                "good night to you",
+                "thank you good night bye ",
+                "good night",
+                "good night bye",
+                "bye good night",
+                "good night",
+                "good night for now",
+                "goodnight",
+                "night",
+                "thanks goodnight",
+                "good night see you tomorrow",
+                "alright goodnight",
+                "good tonight",
+                "okay have a good night",
+                "have a good night"
+            ],
+            "responses": [
+               
+            ]
+        }
+    ]
+}
