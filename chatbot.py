@@ -5,7 +5,8 @@ import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
 nltk.download('punkt')
-nltk.download('corpora')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 from tensorflow.keras.models import load_model
 
