@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
-nlkt.download('punkt')
+nltk.download('punkt')
 
 from tensorflow.keras.models import load_model
 
