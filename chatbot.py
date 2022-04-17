@@ -56,12 +56,15 @@ def getResponse(ints, intents_json):
 
 def chatbot_response(msg):
     ints = predict_class(msg)
-    # res = getResponse(inits, intents)
-    return ints
+    if ints == []:
+        return "I don't understand"
+    else:
+        res = getResponse(ints, intents)
+    return res
 
-# while True:
-#     msg = input('You: ')
-#     if msg == 'quit':
-#         break
-#     res = chatbot_response(msg)
-#     print(res)
+while True:
+    msg = input('You: ')
+    if msg == 'quit':
+        break
+    res = chatbot_response(msg)
+    print(res)
