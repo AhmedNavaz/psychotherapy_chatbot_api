@@ -1,17 +1,18 @@
-import random
 import json
 import pickle
 import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
+# nltk.download('punkt')
+# nltk.download('wordnet')
+# nltk.download('omw-1.4')
 
 from tensorflow.keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('intents.json').read())
+with open("intents.json", encoding='utf-8') as f:
+    global intents
+    intents = json.load(f)
 
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
@@ -50,7 +51,8 @@ def getResponse(ints, intents_json):
     list_of_intents = intents_json['intents']
     for i in list_of_intents:
         if(i['tag']== tag):
-            result = random.choice(i['responses'])
+            # result = random.choice(i['responses'])
+            result = i['tag']
             break
     return result
 
@@ -59,12 +61,12 @@ def chatbot_response(msg):
     if ints == []:
         return "I don't understand"
     else:
-        res = getResponse(ints, intents)
+        res = getResponse(ints, intents)        
     return res
 
-while True:
-    msg = input('You: ')
-    if msg == 'quit':
-        break
-    res = chatbot_response(msg)
-    print(res)
+# while True:
+#     msg = input('You: ')
+#     if msg == 'quit':
+#         break
+#     res = chatbot_response(msg)
+#     print(res)
